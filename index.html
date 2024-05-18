@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ToDo List</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📓 Jihad's TO-DO List</h1><br>
+            <div class="sub-header">
+                <h3>📝 Today's Task </h3><br>
+                <p><span id="date">September 08, 2023 </span>📅</p>
+            </div>
+        </div>
+        <div class="list-area">
+            <ol id="todo-list">
+                <!-- here data will be loadded -->
+            </ol>
+        </div>
+        <form id="todo-form">
+            <input id="input-field" type="text" placeholder="Add a new Task ✒️" name="todo-name" />
+            <button class="add-btn" type="submit">➕</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 700px;
+    margin: 0 auto;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p, li, span, button{
+    font-size: 18px;
+}
+.header{
+    padding: 20px 0;
+}
+.header h1{
+    text-align: center;
+    color: purple;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: rgb(243, 239, 239);
+    border-radius: 5px;
+}
+.sub-header{
+    display: flex;
+    justify-content: space-between;
+}
+#todo-list{
+    padding: 15px 50px;
+    height: 300px;
+    overflow-y: scroll;
+    border: 1px solid grey;
+    border-radius: 10px;
+    background: rgb(243, 239, 239);
+    margin-bottom: 20px;
+}
+    
+
+#todo-form{
+    text-align: center;
+}
+#todo-form input{
+    width: 600px;
+    height: 30px;
+    text-align: center;
+    border-radius: 20px;
+    margin: 20px;
+    font-size: 14px;
+}
+
+  .btn {
+    cursor: pointer;
+    transition: color 0.3s ease;
+    background: none;
+    border: none;
+    padding: 7px;
+  }
+  
+  .btn-cursor-disabled {
+    pointer-events: none;
+  }
+  
+  .line-through {
+    text-decoration: line-through;
+  }
